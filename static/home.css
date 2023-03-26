@@ -1,0 +1,51 @@
+h1 { color:rgb(23, 161, 55)
+   }
+h3{
+    margin-left: 15%; 
+font-size: 3vw;
+color :rgb(219, 116, 51)} 
+
+input {
+    background-color: transparent;
+    position: static;
+    size-adjust: 3db;
+}
+button{
+    position:sticky; 
+    color: red;
+    border: rgb(210, 102, 210);
+    border-radius: 20;
+    margin-bottom: 30%;
+    margin-left:0%;   
+    width:150px;
+    bottom:200px;
+}
+img{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.first{color: red;}
+body{background-image:url(bg.jpg) ;
+    background-size: cover;
+    background-position: center;}
+.navigation2{ margin-bottom: 0px;
+    background:green ;
+text-align: center;}
+.navigation2 ul {
+    display:inline-flex;
+    list-style: none;
+    color: #fffefe;
+}
+.navigation2 ul li{
+    color : white;
+    width: 25vb;
+    height: 3vh;
+    margin-right: 5vb;
+}
+.navigation2 ul li a { color:#fffefe;
+text-decoration: none;}
+
+.navigation2 ul li:hover {border-radius: 3px; background:rgb(139, 226, 7);
+
+}

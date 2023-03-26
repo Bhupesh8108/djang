@@ -1,0 +1,38 @@
+h3{ color :rgb(32, 10, 160);
+size: 20px;
+font-size: x-large;
+margin-left: 10vh ;
+margin-bottom: 5vh ;
+
+}
+section{
+    background-color :rgb(227, 191, 223);
+    margin-left: 40%;
+    margin-top: 10%;
+    max-width: 60vh;
+    max-height: 70vh;
+    min-height: 60vh;
+}
+body{background-image:url(bg.jpg) ;
+    background-size: cover;
+    background-position: center;}
+.navigation{ margin-bottom: 0px;
+    background:green ;
+text-align: center;}
+.navigation ul {
+    display:inline-flex;
+    list-style: none;
+    color: #fffefe;
+}
+.navigation ul li{
+    color : white;
+    width: 25vb;
+    height: 3vh;
+    margin-right: 5vb;
+}
+.navigation ul li a { color:#fffefe;
+text-decoration: none;}
+
+.navigation ul li:hover {border-radius: 3px; background:rgb(139, 226, 7);
+
+}

@@ -1,0 +1,44 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C&B</title>
+</head>
+<body>
+    <link rel="stylesheet" href="{%static 'order.css'%}">
+
+    <div  class = "navigation3">
+        <ul>
+            <li><a class = "active" href="/">Home</a></li>
+   <li> <a  href="product">Products</a></li>
+   <li><a href="order">Order Now</a></li>
+   <li><a href="contact">Contact us</a></li>
+   <li><a href="carrier">Carrer</a>
+   <li><a href="API">Api</a>
+
+   </li>
+</ul>
+</div>
+<section>
+    <h3> Select desired product</h3>
+    <select name="product" id="prod">
+        <option value="tea">Tea</option>
+        <option value="coffe">Coffee</option>
+        <option value="beans">Beans</option>
+    </select>
+    <form method="post">
+        {%csrf_token%}
+    <p> Name </p> 
+    <input type="text" name="name" placeholder="Enter you name">
+    <p> Address </p> 
+    <input type="text" name="address" placeholder="Your Adress">
+    <p>Phone number</p>
+    <input type="text" name="number" placeholder="Phone number">
+    <button type="submit"> Submit</button>
+</form>
+</section>
+</body>
+</html>
