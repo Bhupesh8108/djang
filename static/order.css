@@ -1,25 +1,39 @@
 section{
     background-color : rgb(235, 200, 200);
     margin-left: 40%;
-    margin-top: 5vh;
+    margin-top: 20vh;
     max-width: 60vh;
     max-height: 70vh;
     min-height: 60vh;
 }
-p,h3,input,select,option{
-    margin-left: 20vh;
-    text-size-adjust: 40px;
+p,h3,input,option{
+    width: 99%;
+    font-size: 20px;
     
 
 }
 button{
-    margin-left: 25vh;
+    /* margin-left: 25vh; */
     margin-top: 5vh;
-    min-width: 10vh;
+    width: 100%;
+    color :white;
+    background-color: purple;
+
 }
-select{ min-width: 19vh;}
-h3 { margin-top:25vh;
-min-width:40vh;}
+.button .button{
+    width: 100%;
+    background-color: purple;
+    border-radius: 30px;
+    border: none;
+}
+select{ width: 100%;
+    font-size: 20px;
+    color: white;
+background-color: green;}
+h3 {font-size: 25px;
+color :blue;
+padding-top : 30px;
+padding-left: 20%;}
 
 
 
@@ -44,3 +58,18 @@ text-align: center;}
 text-decoration: none;}
 
 .navigation3 ul li:hover {border-radius: 3px; background:rgb(139, 226, 7);}
+
+.message{
+    display : flex;
+    justify-content: center;
+    position: relative;
+    margin-left : 20vh;
+}
+.message .success{
+    color : green;
+    display: none;
+    position: absolute;
+}
+.message .failed{color: red;
+    display: none ;
+position: absolute;}

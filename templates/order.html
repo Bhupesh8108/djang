@@ -31,14 +31,21 @@
     </select>
     <form method="post">
         {%csrf_token%}
+            
     <p> Name </p> 
     <input type="text" name="name" placeholder="Enter you name">
     <p> Address </p> 
     <input type="text" name="address" placeholder="Your Adress">
     <p>Phone number</p>
     <input type="text" name="number" placeholder="Phone number">
-    <button type="submit"> Submit</button>
+    <div class="message">
+        <div class="success"> Your order sent to sendor</div>
+        <div class="failed"> Invalid input</div>
+    </div>
+    <button class = "button" onclick = "first()">Submit</button>
 </form>
 </section>
+<script src="{%static 'abc.js'%}"></script>
+
 </body>
 </html>
